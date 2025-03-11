@@ -4,6 +4,13 @@
   <artifactId>GerberViewer</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <description>A GUI for viewing Gerber files</description>
+  <dependencies>
+		<dependency>
+			<groupId>io.github.tonyluken</groupId>
+			<artifactId>GerberFileReader</artifactId>
+			<version>1.0.1</version>
+		</dependency>
+  </dependencies>
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
